@@ -1,1 +1,2 @@
-# 2g3t
+# DUPLA
+## Fulano - 25 --- Ciclano - 10.
