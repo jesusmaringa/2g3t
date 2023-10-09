@@ -18,6 +18,21 @@ let op = "";
 let valor = "";
 let tem_ponto = false;
 let desligada = false;
+
+function raiz_quadrada(){
+    console.log(valor);
+    mostra_resultado(raiz(valor));
+    valor = "";
+}
+
+function porcentagem(){
+    if(op == "mult"){
+        mostra_resultado(div(mult(a,valor),100));
+        a = "";
+        valor = "";
+    }
+}
+
 function zerar(){
     if(desligada) return;
     a = "";
