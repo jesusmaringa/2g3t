@@ -13,7 +13,7 @@ eq2grau = (a,b,c) => {
     if(delta < 0) return "Não Possui raiz real.";
     if(delta == 0) return "x1 = x2 = " + div(-b,mult(2,a));
     return "x1 " + div(soma(-b,raiz(delta)),mult(2,a)) + 
-           "x2 " + div(sub(-b,raiz(delta)),mult(2,a));
+           " x2 " + div(sub(-b,raiz(delta)),mult(2,a));
 }
 let a = "0";
 let b = "0";
